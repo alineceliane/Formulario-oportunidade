@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Formulario</title>
+        <link rel="stylesheet" href="oportunidadecss.css" type="text/css">
+    </head>
+    <body>
+        <center>
+            
+            <div>
+    
+                <div id="main">
+                <h1>Opportunity </h1>
+                </div>
+    
+                <form> 
+    
+                    <div id="forms">
+                        <input type="checkbox" name="particular" value="bicicleta" class="nome">Private</br></br>
+    
+    
+                       <label for="name">Name</label>
+                       <input type="text" name="name" id="name" placeholder="Opportunity name" class="nome"></br></br>
+    
+                       
+                       <label for="valor">Amount</label>
+                       <input type="text" name="valor" id="valor" placeholder="Ammount" class="nome"></br></br>
+    
+                       <label for="type" > 	Stage Name </label> </br>
+                        <select name="type" id="type" class="nome" >
+                         <option value="null">--Nenhum-- </option> 
+                         <option value="Prospecting"> Prospecting </option>  
+                         <option value="Qualification"> Qualification </option>  
+                         <option value="Needs Analysis"> Needs Analysis </option>  
+                         <option value="Value Proposition"> Value Proposition </option>  
+                         <option value="Id. Decision Makers"> Id. Decision Makers </option>  
+                         <option value="Perception Analysis"> Perception Analysis </option>  
+                         <option value="Proposal/Price Quote"> Proposal/Price Quote </option>  
+                         <option value="Negotiation/Review"> Negotiation/Review </option>
+                         <option value="Closed Won"> Closed Won </option>
+                         <option value="Closed Lost"> Closed Lost </option>
+                        </select> <br></br>
+    
+                        <label for="type" > Type </label> </br>
+                        <select name="type" id="type" class="nome">
+                         <option value="null">--Nenhum-- </option> 
+                         <option value="Existing Customer - Upgrade"> Existing Customer - Upgrade </option>  
+                         <option value="Existing Customer - Replacement"> Existing Customer - Replacement </option>  
+                         <option value="Existing Customer - Downgrade"> Existing Customer - Downgrade </option>  
+                         <option value="Value Proposition"> Value Proposition </option>  
+                         <option value="New Customer"> New Customer </option>
+                        </select> <br></br>
+    
+                    </div>
+    
+                </form>
+                
+    
+            </div>
+
+        </center>
+
+    </body>
+</html>
